@@ -1,0 +1,5 @@
+build/bin/{{.BinaryName}} usr/bin
+{{- if eq .BinaryName "gchain" }}
+build/deb/chainstone/completions/bash/gchain etc/bash_completion.d
+build/deb/chainstone/completions/zsh/_gchain usr/share/zsh/vendor-completions
+{{end -}}
