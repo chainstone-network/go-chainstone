@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/chainstone/go-chainstone/issues"
-!define UPDATEURL "https://github.com/chainstone/go-chainstone/releases"
-!define ABOUTURL "https://github.com/chainstone/go-chainstone#chainstone-go"
+!define HELPURL "https://github.com/chainstone-network/go-chainstone/issues"
+!define UPDATEURL "https://github.com/chainstone-network/go-chainstone/releases"
+!define ABOUTURL "https://github.com/chainstone-network/go-chainstone#chainstone-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license
@@ -33,7 +33,7 @@ Section "Gchain" GCHAIN_IDX
   SimpleFC::AdvAddRule "Gchain outgoing peers (TCP:30303)" ""  6 2 1 2147483647 1 "$INSTDIR\gchain.exe" "" "" "Chainstoneeum" "" 30303 "" ""
   SimpleFC::AdvAddRule "Gchain UDP discovery (UDP:30303)" "" 17 2 1 2147483647 1 "$INSTDIR\gchain.exe" "" "" "Chainstoneeum" "" 30303 "" ""
 
-  # Set default IPC endpoint (https://github.com/chainstone/EIPs/issues/147)
+  # Set default IPC endpoint (https://github.com/chainstone-network/EIPs/issues/147)
   ${EnvVarUpdate} $0 "CHAINSTONE_SOCKET" "R" "HKLM" "\\.\pipe\gchain.ipc"
   ${EnvVarUpdate} $0 "CHAINSTONE_SOCKET" "A" "HKLM" "\\.\pipe\gchain.ipc"
 

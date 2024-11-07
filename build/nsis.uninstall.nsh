@@ -21,7 +21,7 @@ Section "Uninstall"
   SimpleFC::AdvRemoveRule "Gchain outgoing peers (TCP:30303)"
   SimpleFC::AdvRemoveRule "Gchain UDP discovery (UDP:30303)"
 
-  # Remove IPC endpoint (https://github.com/chainstone/EIPs/issues/147)
+  # Remove IPC endpoint (https://github.com/chainstone-network/EIPs/issues/147)
   ${un.EnvVarUpdate} $0 "CHAINSTONE_SOCKET" "R" "HKLM" "\\.\pipe\gchain.ipc"
 
   # Remove install directory from PATH

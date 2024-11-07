@@ -11,7 +11,7 @@
 
   <name>Android Chainstoneeum Client</name>
   <description>Android port of the go-chainstone libraries and node</description>
-  <url>https://github.com/chainstone/go-chainstone</url>
+  <url>https://github.com/chainstone-network/go-chainstone</url>
   <inceptionYear>2015</inceptionYear>
 
   <licenses>
@@ -48,10 +48,10 @@
 
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/chainstone/go-chainstone/issues/</url>
+    <url>https://github.com/chainstone-network/go-chainstone/issues/</url>
   </issueManagement>
 
   <scm>
-    <url>https://github.com/chainstone/go-chainstone</url>
+    <url>https://github.com/chainstone-network/go-chainstone</url>
   </scm>
 </project>

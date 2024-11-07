@@ -1,4 +1,4 @@
-module github.com/chainstone/go-chainstone
+module github.com/chainstone-network/go-chainstone
 
 go 1.17
 

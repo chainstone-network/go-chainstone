@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), {{.GoBootPackage}}
 Standards-Version: 3.9.5
 Homepage: https://chainstone.org
-Vcs-Git: https://github.com/chainstone/go-chainstone.git
-Vcs-Browser: https://github.com/chainstone/go-chainstone
+Vcs-Git: https://github.com/chainstone-network/go-chainstone.git
+Vcs-Browser: https://github.com/chainstone-network/go-chainstone
 
 Package: {{.Name}}
 Architecture: any

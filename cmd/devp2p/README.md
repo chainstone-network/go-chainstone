@@ -134,7 +134,7 @@ replacing `<enode>` with the enode of the gchain node:
  devp2p rlpx eth66-test <enode> cmd/devp2p/internal/ethtest/testdata/chain.rlp cmd/devp2p/internal/ethtest/testdata/genesis.json
 ```
 
-[eth]: https://github.com/chainstone/devp2p/blob/master/caps/eth.md
+[eth]: https://github.com/chainstone-network/devp2p/blob/master/caps/eth.md
 [dns-tutorial]: https://gchain.chainstone.org/docs/developers/dns-discovery-setup
-[discv4]: https://github.com/chainstone/devp2p/tree/master/discv4.md
-[discv5]: https://github.com/chainstone/devp2p/tree/master/discv5/discv5.md
+[discv4]: https://github.com/chainstone-network/devp2p/tree/master/discv4.md
+[discv5]: https://github.com/chainstone-network/devp2p/tree/master/discv5/discv5.md

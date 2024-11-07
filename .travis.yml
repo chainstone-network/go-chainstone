@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/chainstone/go-chainstone
+go_import_path: github.com/chainstone-network/go-chainstone
 sudo: false
 jobs:
   allow_failures:
@@ -154,8 +154,8 @@ jobs:
         - export GOPATH=$HOME/go
       script:
         # Build the Android archive and upload it to Maven Central and Azure
-        - mkdir -p $GOPATH/src/github.com/chainstone
-        - ln -s `pwd` $GOPATH/src/github.com/chainstone/go-chainstone
+        - mkdir -p $GOPATH/src/github.com/chainstone-network
+        - ln -s `pwd` $GOPATH/src/github.com/chainstone-network/go-chainstone
         - go run build/ci.go aar -signer ANDROID_SIGNING_KEY -signify SIGNIFY_KEY  -deploy https://oss.sonatype.org -upload gchainstore/builds
 
     # This builder does the OSX Azure, iOS CocoaPods and iOS Azure uploads

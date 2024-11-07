@@ -1,6 +1,6 @@
 [submodule "tests"]
 	path = tests/testdata
-	url = https://github.com/chainstone/tests
+	url = https://github.com/chainstone-network/tests
 	shallow = true
 [submodule "evm-benchmarks"]
 	path = tests/evm-benchmarks

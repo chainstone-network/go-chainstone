@@ -2,12 +2,12 @@ Pod::Spec.new do |spec|
   spec.name         = 'Gchain'
   spec.version      = '{{.Version}}'
   spec.license      = { :type => 'GNU Lesser General Public License, Version 3.0' }
-  spec.homepage     = 'https://github.com/chainstone/go-chainstone'
+  spec.homepage     = 'https://github.com/chainstone-network/go-chainstone'
   spec.authors      = { {{range .Contributors}}
 		'{{.Name}}' => '{{.Email}}',{{end}}
 	}
   spec.summary      = 'iOS Chainstoneeum Client'
-  spec.source       = { :git => 'https://github.com/chainstone/go-chainstone.git', :commit => '{{.Commit}}' }
+  spec.source       = { :git => 'https://github.com/chainstone-network/go-chainstone.git', :commit => '{{.Commit}}' }
 
 	spec.platform = :ios
   spec.ios.deployment_target  = '9.0'

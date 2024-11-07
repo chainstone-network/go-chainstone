@@ -4,8 +4,8 @@ Official Golang implementation of the Chainstoneeum protocol.
 
 [![API Reference](
 https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-)](https://pkg.go.dev/github.com/chainstone/go-chainstone?tab=doc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/chainstone/go-chainstone)](https://goreportcard.com/report/github.com/chainstone/go-chainstone)
+)](https://pkg.go.dev/github.com/chainstone-network/go-chainstone?tab=doc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/chainstone-network/go-chainstone)](https://goreportcard.com/report/github.com/chainstone-network/go-chainstone)
 [![Travis](https://travis-ci.com/chainstone/go-chainstone.svg?branch=master)](https://travis-ci.com/chainstone/go-chainstone)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/nthXNEv)
 
@@ -325,7 +325,7 @@ also need to configure a miner to process transactions and create new blocks for
 Mining on the public Chainstoneeum network is a complex task as it's only feasible using GPUs,
 requiring an OpenCL or CUDA enabled `ethminer` instance. For information on such a
 setup, please consult the [ChainstoneMining subreddit](https://www.reddit.com/r/ChainstoneMining/)
-and the [ethminer](https://github.com/chainstone-mining/ethminer) repository.
+and the [ethminer](https://github.com/chainstone-network-mining/ethminer) repository.
 
 In a private network setting, however a single CPU miner instance is more than enough for
 practical purposes as it can produce a stable stream of blocks at the correct intervals

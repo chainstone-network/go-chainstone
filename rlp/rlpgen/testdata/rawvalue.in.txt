@@ -2,7 +2,7 @@
 
 package test
 
-import "github.com/chainstone/go-chainstone/rlp"
+import "github.com/chainstone-network/go-chainstone/rlp"
 
 type Test struct {
 	RawValue          rlp.RawValue
