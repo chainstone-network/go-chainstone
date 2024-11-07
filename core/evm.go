@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/consensus"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/consensus"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

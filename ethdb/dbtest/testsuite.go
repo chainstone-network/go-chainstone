@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

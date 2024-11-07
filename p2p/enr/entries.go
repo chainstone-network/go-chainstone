@@ -22,7 +22,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 // Entry is implemented by known node record entry types.

@@ -24,16 +24,16 @@ import (
 	"runtime"
 	"time"
 
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/consensus"
+	"github.com/chainstone-network/go-chainstone/consensus/misc"
+	"github.com/chainstone-network/go-chainstone/core/state"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/trie"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/consensus"
-	"github.com/chainstone/go-chainstone/consensus/misc"
-	"github.com/chainstone/go-chainstone/core/state"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/params"
-	"github.com/chainstone/go-chainstone/rlp"
-	"github.com/chainstone/go-chainstone/trie"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -376,7 +376,7 @@ func makeDifficultyCalculator(bombDelay *big.Int) func(time uint64, parent *type
 	// the block number. Thus we remove one from the delay given
 	bombDelayFromParent := new(big.Int).Sub(bombDelay, big1)
 	return func(time uint64, parent *types.Header) *big.Int {
-		// https://github.com/chainstone/EIPs/issues/100.
+		// https://github.com/chainstone-network/EIPs/issues/100.
 		// algorithm:
 		// diff = (parent_diff +
 		//         (parent_diff / 2048 * max((2 if len(parent.uncles) else 1) - ((timestamp - parent.timestamp) // 9), -99))
@@ -435,7 +435,7 @@ func makeDifficultyCalculator(bombDelay *big.Int) func(time uint64, parent *type
 // the difficulty that a new block should have when created at time given the
 // parent block's time and difficulty. The calculation uses the Homestead rules.
 func calcDifficultyHomestead(time uint64, parent *types.Header) *big.Int {
-	// https://github.com/chainstone/EIPs/blob/master/EIPS/eip-2.md
+	// https://github.com/chainstone-network/EIPs/blob/master/EIPS/eip-2.md
 	// algorithm:
 	// diff = (parent_diff +
 	//         (parent_diff / 2048 * max(1 - (block_timestamp - parent_timestamp) // 10, -99))

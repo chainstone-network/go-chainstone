@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
 )
 
 // TestAccountIteratorBasics tests some simple single-layer(diff and disk) iteration

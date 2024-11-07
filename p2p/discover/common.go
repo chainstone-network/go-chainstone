@@ -20,11 +20,11 @@ import (
 	"crypto/ecdsa"
 	"net"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/p2p/enr"
-	"github.com/chainstone/go-chainstone/p2p/netutil"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/enr"
+	"github.com/chainstone-network/go-chainstone/p2p/netutil"
 )
 
 // UDPConn is a network connection on which discovery can operate.

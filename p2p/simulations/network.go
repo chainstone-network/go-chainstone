@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/event"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/p2p/simulations/adapters"
+	"github.com/chainstone-network/go-chainstone/event"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond
@@ -786,7 +786,7 @@ func (n *Node) MarshalJSON() ([]byte, error) {
 // status. IMPORTANT: The implementation is incomplete; we lose p2p.NodeInfo.
 func (n *Node) UnmarshalJSON(raw []byte) error {
 	// TODO: How should we turn back NodeInfo into n.Node?
-	// Ticket: https://github.com/chainstonesphere/go-chainstone/issues/1177
+	// Ticket: https://github.com/chainstone-networksphere/go-chainstone/issues/1177
 	var node struct {
 		Config *adapters.NodeConfig `json:"config,omitempty"`
 		Up     bool                 `json:"up"`

@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/chainstone/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
 )
 
 // FromHex returns the bytes represented by the hexadecimal string s.

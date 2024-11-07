@@ -22,7 +22,7 @@ package metrics
 import (
 	syscall "golang.org/x/sys/unix"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

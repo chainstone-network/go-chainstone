@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/consensus/ethash"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/light"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/consensus/ethash"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/light"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

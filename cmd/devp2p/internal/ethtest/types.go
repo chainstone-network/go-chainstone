@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainstone/go-chainstone/eth/protocols/eth"
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/p2p/rlpx"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/eth/protocols/eth"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/p2p/rlpx"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 type Message interface {

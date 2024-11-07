@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

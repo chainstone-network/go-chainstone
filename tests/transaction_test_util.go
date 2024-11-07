@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/params"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

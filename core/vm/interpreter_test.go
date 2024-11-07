@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/core/state"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/core/state"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 var loopInterruptTests = []string{

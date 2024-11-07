@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 // Forks table defines supported forks and their chain config.

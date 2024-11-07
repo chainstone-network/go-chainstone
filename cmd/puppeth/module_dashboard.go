@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // dashboardContent is the actual dashboard HTML content to serve up when users
@@ -201,7 +201,7 @@ var dashboardContent = `
 										<p>Starting with the 1.5 release of go-chainstone, we've transitioned away from shipping only full blown Chainstoneeum clients and started focusing on releasing the code as reusable packages initially for Go projects, then later for Java based Android projects too. Mobile support is still evolving, hence is bound to change often and hard, but the Chainstoneeum network can nonetheless be accessed from Android too.</p>
 										<p>Under the hood the Android library is backed by a go-chainstone light node, meaning that given a not-too-old Android device, you should be able to join the network without significant issues. Certain functionality is not yet available and rough edges are bound to appear here and there, please report issues if you find any.</p>
 										<br/>
-										<p>The stable Android archives are distributed via Maven Central, and the develop snapshots via the Sonatype repositories. Before proceeding, please ensure you have a recent version configured in your Android project. You can find details in <a href="https://github.com/chainstone/go-chainstone/wiki/Mobile:-Introduction#android-archive" target="about:blank">Mobile: Introduction &ndash; Android archive</a>.
+										<p>The stable Android archives are distributed via Maven Central, and the develop snapshots via the Sonatype repositories. Before proceeding, please ensure you have a recent version configured in your Android project. You can find details in <a href="https://github.com/chainstone-network/go-chainstone/wiki/Mobile:-Introduction#android-archive" target="about:blank">Mobile: Introduction &ndash; Android archive</a>.
 										<p>Before connecting to the Chainstoneeum network, download the <a href="/{{.GchainGenesis}}"><code>{{.GchainGenesis}}</code></a> genesis json file and either store it in your Android project as a resource file you can access, or save it as a string in a variable. You're going to need to initialize your client.</p>
 										<p>Inside your Java code you can now import the gchain archive and connect to Chainstoneeum:
 											<pre>import org.chainstone.gchain.*;</pre>
@@ -232,7 +232,7 @@ node.start();
 										<p>Starting with the 1.5 release of go-chainstone, we've transitioned away from shipping only full blown Chainstoneeum clients and started focusing on releasing the code as reusable packages initially for Go projects, then later for ObjC/Swift based iOS projects too. Mobile support is still evolving, hence is bound to change often and hard, but the Chainstoneeum network can nonetheless be accessed from iOS too.</p>
 										<p>Under the hood the iOS library is backed by a go-chainstone light node, meaning that given a not-too-old Apple device, you should be able to join the network without significant issues. Certain functionality is not yet available and rough edges are bound to appear here and there, please report issues if you find any.</p>
 										<br/>
-										<p>Both stable and develop builds of the iOS framework are available via CocoaPods. Before proceeding, please ensure you have a recent version configured in your iOS project. You can find details in <a href="https://github.com/chainstone/go-chainstone/wiki/Mobile:-Introduction#ios-framework" target="about:blank">Mobile: Introduction &ndash; iOS framework</a>.
+										<p>Both stable and develop builds of the iOS framework are available via CocoaPods. Before proceeding, please ensure you have a recent version configured in your iOS project. You can find details in <a href="https://github.com/chainstone-network/go-chainstone/wiki/Mobile:-Introduction#ios-framework" target="about:blank">Mobile: Introduction &ndash; iOS framework</a>.
 										<p>Before connecting to the Chainstoneeum network, download the <a href="/{{.GchainGenesis}}"><code>{{.GchainGenesis}}</code></a> genesis json file and either store it in your iOS project as a resource file you can access, or save it as a string in a variable. You're going to need to initialize your client.</p>
 										<p>Inside your Swift code you can now import the gchain framework and connect to Chainstoneeum (ObjC should be analogous):
 											<pre>import Gchain</pre>
@@ -282,7 +282,7 @@ try! node?.start();
 											<pre>eth --config {{.CppGenesis}} --datadir $HOME/.{{.Network}} --peerset "{{.CppBootnodes}}"</pre>
 										</p>
 										<br/>
-										<p>You can find cpp-chainstone at <a href="https://github.com/chainstone/cpp-chainstone/" target="about:blank">https://github.com/chainstone/cpp-chainstone/</a>.</p>
+										<p>You can find cpp-chainstone at <a href="https://github.com/chainstone-network/cpp-chainstone/" target="about:blank">https://github.com/chainstone-network/cpp-chainstone/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -302,7 +302,7 @@ try! node?.start();
 											<pre>./gradlew runCustom -DgenesisFile={{.HarmonyGenesis}} -Dpeer.networkId={{.NetworkID}} -Ddatabase.dir=$HOME/.harmony/{{.Network}} {{.HarmonyBootnodes}} </pre>
 										</p>
 										<br/>
-										<p>You can find Chainstoneeum Harmony at <a href="https://github.com/chainstone-camp/chainstone-harmony/" target="about:blank">https://github.com/chainstone-camp/chainstone-harmony/</a>.</p>
+										<p>You can find Chainstoneeum Harmony at <a href="https://github.com/chainstone-network-camp/chainstone-harmony/" target="about:blank">https://github.com/chainstone-network-camp/chainstone-harmony/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -346,7 +346,7 @@ try! node?.start();
 											<pre>pyethapp -c eth.genesis="$(cat {{.PythonGenesis}})" -c eth.network_id={{.NetworkID}} -c data_dir=$HOME/.config/pyethapp/{{.Network}} -c discovery.bootstrap_nodes="[{{.PythonBootnodes}}]" -c eth.block.HOMESTEAD_FORK_BLKNUM={{.Homestead}} -c eth.block.ANTI_DOS_FORK_BLKNUM={{.Tangerine}} -c eth.block.SPURIOUS_DRAGON_FORK_BLKNUM={{.Spurious}} -c eth.block.METROPOLIS_FORK_BLKNUM={{.Byzantium}} -c eth.block.DAO_FORK_BLKNUM=18446744073709551615 run --console</pre>
 										</p>
 										<br/>
-										<p>You can find pyethapp at <a href="https://github.com/chainstone/pyethapp/" target="about:blank">https://github.com/chainstone/pyethapp/</a>.</p>
+										<p>You can find pyethapp at <a href="https://github.com/chainstone-network/pyethapp/" target="about:blank">https://github.com/chainstone-network/pyethapp/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -364,7 +364,7 @@ try! node?.start();
 										<p>Puppeth is a tool to aid you in creating a new Chainstoneeum network down to the genesis block, bootnodes, signers, ethstats server, crypto faucet,  block explorer, dashboard and more; without the hassle that it would normally entail to manually configure all these services one by one.</p>
 										<p>Puppeth uses ssh to dial in to remote servers, and builds its network components out of docker containers using docker-compose. The user is guided through the process via a command line wizard that does the heavy lifting and topology configuration automatically behind the scenes.</p>
 										<br/>
-										<p>Puppeth is distributed as part of the <a href="https://gchain.chainstone.org/downloads/" target="about:blank">Gchain &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/chainstone/go-chainstone/cmd/puppeth</pre></p>
+										<p>Puppeth is distributed as part of the <a href="https://gchain.chainstone.org/downloads/" target="about:blank">Gchain &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/chainstone-network/go-chainstone/cmd/puppeth</pre></p>
 										<br/>
 										<p><em>Copyright 2017. The go-chainstone Authors.</em></p>
 									</div>
@@ -557,7 +557,7 @@ func deployDashboard(client *sshClient, network string, conf *config, config *da
 		"EthstatsPage":      config.ethstats,
 		"ExplorerPage":      config.explorer,
 		"FaucetPage":        config.faucet,
-		"GchainGenesis":       network + ".json",
+		"GchainGenesis":     network + ".json",
 		"Bootnodes":         conf.bootnodes,
 		"BootnodesFlat":     strings.Join(conf.bootnodes, ","),
 		"Ethstats":          statsLogin,

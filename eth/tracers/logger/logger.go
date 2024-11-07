@@ -26,12 +26,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/core/vm"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/params"
 	"github.com/holiman/uint256"
 )
 

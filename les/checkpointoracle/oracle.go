@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chainstone/go-chainstone/accounts/abi/bind"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/contracts/checkpointoracle"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/accounts/abi/bind"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/contracts/checkpointoracle"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

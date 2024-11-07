@@ -24,15 +24,15 @@ import (
 	"sort"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/core/state/snapshot"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/metrics"
-	"github.com/chainstone/go-chainstone/rlp"
-	"github.com/chainstone/go-chainstone/trie"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/core/state/snapshot"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/metrics"
+	"github.com/chainstone-network/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/trie"
 )
 
 type revision struct {
@@ -600,8 +600,8 @@ func (s *StateDB) createObject(addr common.Address) (newobj, prev *stateObject) 
 // CreateAccount is called during the EVM CREATE operation. The situation might arise that
 // a contract does the following:
 //
-//   1. sends funds to sha(account ++ (nonce + 1))
-//   2. tx_create(sha(account ++ nonce)) (note that this gets the address of 1)
+//  1. sends funds to sha(account ++ (nonce + 1))
+//  2. tx_create(sha(account ++ nonce)) (note that this gets the address of 1)
 //
 // Carrying over the balance ensures that Chainstone doesn't disappear.
 func (s *StateDB) CreateAccount(addr common.Address) {
@@ -660,7 +660,7 @@ func (s *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range s.journal.dirties {
-		// As documented [here](https://github.com/chainstone/go-chainstone/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/chainstone-network/go-chainstone/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

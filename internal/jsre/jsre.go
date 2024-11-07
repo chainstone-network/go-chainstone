@@ -27,8 +27,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/chainstone-network/go-chainstone/common"
 	"github.com/dop251/goja"
-	"github.com/chainstone/go-chainstone/common"
 )
 
 // JSRE is a JS runtime environment embedding the goja interpreter.

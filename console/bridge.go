@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/chainstone-network/go-chainstone/accounts/scwallet"
+	"github.com/chainstone-network/go-chainstone/accounts/usbwallet"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/console/prompt"
+	"github.com/chainstone-network/go-chainstone/internal/jsre"
+	"github.com/chainstone-network/go-chainstone/rpc"
 	"github.com/dop251/goja"
-	"github.com/chainstone/go-chainstone/accounts/scwallet"
-	"github.com/chainstone/go-chainstone/accounts/usbwallet"
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/console/prompt"
-	"github.com/chainstone/go-chainstone/internal/jsre"
-	"github.com/chainstone/go-chainstone/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

@@ -20,13 +20,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/core/vm"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 // This test case is a repro of an annoying bug that took us forever to catch.

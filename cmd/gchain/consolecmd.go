@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/cmd/utils"
-	"github.com/chainstone/go-chainstone/console"
-	"github.com/chainstone/go-chainstone/internal/flags"
-	"github.com/chainstone/go-chainstone/node"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/cmd/utils"
+	"github.com/chainstone-network/go-chainstone/console"
+	"github.com/chainstone-network/go-chainstone/internal/flags"
+	"github.com/chainstone-network/go-chainstone/node"
+	"github.com/chainstone-network/go-chainstone/rpc"
 	"github.com/urfave/cli/v2"
 )
 

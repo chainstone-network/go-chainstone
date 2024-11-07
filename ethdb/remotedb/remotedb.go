@@ -25,9 +25,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/ethdb"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/rpc"
 )
 
 // Database is a key-value lookup for a remote database via debug_dbGet.

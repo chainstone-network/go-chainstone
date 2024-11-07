@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/les/downloader"
-	"github.com/chainstone/go-chainstone/light"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/les/downloader"
+	"github.com/chainstone-network/go-chainstone/light"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

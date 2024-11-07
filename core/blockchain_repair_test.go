@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/consensus/ethash"
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/core/vm"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/consensus/ethash"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 // Tests a recovery for a short canonical chain where a recent block was already
@@ -1859,7 +1859,7 @@ func testRepair(t *testing.T, tt *rewindTest, snapshots bool) {
 	}
 }
 
-// TestIssue23496 tests scenario described in https://github.com/chainstone/go-chainstone/pull/23496#issuecomment-926393893
+// TestIssue23496 tests scenario described in https://github.com/chainstone-network/go-chainstone/pull/23496#issuecomment-926393893
 // Credits to @zzyalbert for finding the issue.
 //
 // Local chain owns these blocks:

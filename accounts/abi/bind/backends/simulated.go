@@ -24,25 +24,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone"
-	"github.com/chainstone/go-chainstone/accounts/abi"
-	"github.com/chainstone/go-chainstone/accounts/abi/bind"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/consensus/ethash"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/bloombits"
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/core/state"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/core/vm"
-	"github.com/chainstone/go-chainstone/eth/filters"
-	"github.com/chainstone/go-chainstone/ethdb"
-	"github.com/chainstone/go-chainstone/event"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/params"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone"
+	"github.com/chainstone-network/go-chainstone/accounts/abi"
+	"github.com/chainstone-network/go-chainstone/accounts/abi/bind"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/consensus/ethash"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/bloombits"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/core/state"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/eth/filters"
+	"github.com/chainstone-network/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/event"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/rpc"
 )
 
 // This nil assignment ensures at compile time that SimulatedBackend implements bind.ContractBackend.
@@ -413,7 +413,7 @@ type revertError struct {
 }
 
 // ErrorCode returns the JSON error code for a revert.
-// See: https://github.com/chainstone/wiki/wiki/JSON-RPC-Error-Codes-Improvement-Proposal
+// See: https://github.com/chainstone-network/wiki/wiki/JSON-RPC-Error-Codes-Improvement-Proposal
 func (e *revertError) ErrorCode() int {
 	return 3
 }

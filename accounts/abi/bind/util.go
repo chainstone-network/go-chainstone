@@ -21,10 +21,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/chainstone/go-chainstone"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

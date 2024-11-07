@@ -24,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

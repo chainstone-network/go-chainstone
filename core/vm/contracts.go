@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/crypto/blake2b"
-	"github.com/chainstone/go-chainstone/crypto/bls12381"
-	"github.com/chainstone/go-chainstone/crypto/bn256"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/crypto/blake2b"
+	"github.com/chainstone-network/go-chainstone/crypto/bls12381"
+	"github.com/chainstone-network/go-chainstone/crypto/bn256"
+	"github.com/chainstone-network/go-chainstone/params"
 	"golang.org/x/crypto/ripemd160"
 )
 
@@ -264,9 +264,10 @@ var (
 // modexpMultComplexity implements bigModexp multComplexity formula, as defined in EIP-198
 //
 // def mult_complexity(x):
-//    if x <= 64: return x ** 2
-//    elif x <= 1024: return x ** 2 // 4 + 96 * x - 3072
-//    else: return x ** 2 // 16 + 480 * x - 199680
+//
+//	if x <= 64: return x ** 2
+//	elif x <= 1024: return x ** 2 // 4 + 96 * x - 3072
+//	else: return x ** 2 // 16 + 480 * x - 199680
 //
 // where is x is max(length_of_MODULUS, length_of_BASE)
 func modexpMultComplexity(x *big.Int) *big.Int {

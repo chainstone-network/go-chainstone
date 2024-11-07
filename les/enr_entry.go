@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/chainstone/go-chainstone/core/forkid"
-	"github.com/chainstone/go-chainstone/p2p/dnsdisc"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/core/forkid"
+	"github.com/chainstone-network/go-chainstone/p2p/dnsdisc"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

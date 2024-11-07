@@ -27,9 +27,9 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
+	"github.com/chainstone-network/go-chainstone/accounts"
+	"github.com/chainstone-network/go-chainstone/common"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/chainstone/go-chainstone/accounts"
-	"github.com/chainstone/go-chainstone/common"
 )
 
 var (

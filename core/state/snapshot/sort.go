@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // hashes is a helper to implement sort.Interface.

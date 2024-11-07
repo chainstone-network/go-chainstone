@@ -24,21 +24,21 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/consensus"
-	"github.com/chainstone/go-chainstone/consensus/beacon"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/forkid"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/eth/downloader"
-	"github.com/chainstone/go-chainstone/eth/fetcher"
-	"github.com/chainstone/go-chainstone/eth/protocols/eth"
-	"github.com/chainstone/go-chainstone/eth/protocols/snap"
-	"github.com/chainstone/go-chainstone/ethdb"
-	"github.com/chainstone/go-chainstone/event"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/consensus"
+	"github.com/chainstone-network/go-chainstone/consensus/beacon"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/forkid"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/eth/downloader"
+	"github.com/chainstone-network/go-chainstone/eth/fetcher"
+	"github.com/chainstone-network/go-chainstone/eth/protocols/eth"
+	"github.com/chainstone-network/go-chainstone/eth/protocols/snap"
+	"github.com/chainstone-network/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/event"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 const (
@@ -269,7 +269,7 @@ func newHandler(config *handlerConfig) (*handler, error) {
 			// entirely whenever the transition is started. But in order to
 			// handle the transition boundary reorg in the consensus-layer,
 			// the legacy blocks are still accepted, but only for the terminal
-			// pow blocks. Spec: https://github.com/chainstone/EIPs/blob/master/EIPS/eip-3675.md#halt-the-importing-of-pow-blocks
+			// pow blocks. Spec: https://github.com/chainstone-network/EIPs/blob/master/EIPS/eip-3675.md#halt-the-importing-of-pow-blocks
 			for i, block := range blocks {
 				ptd := h.chain.GetTd(block.ParentHash(), block.NumberU64()-1)
 				if ptd == nil {

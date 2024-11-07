@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/ethdb"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

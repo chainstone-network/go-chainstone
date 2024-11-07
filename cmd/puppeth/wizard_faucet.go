@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/accounts/keystore"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/accounts/keystore"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

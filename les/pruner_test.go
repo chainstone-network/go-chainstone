@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/light"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/light"
 )
 
 func TestLightPruner(t *testing.T) {

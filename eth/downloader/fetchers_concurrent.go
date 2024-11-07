@@ -21,10 +21,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/prque"
-	"github.com/chainstone/go-chainstone/eth/protocols/eth"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/prque"
+	"github.com/chainstone-network/go-chainstone/eth/protocols/eth"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // timeoutGracePeriod is the amount of time to allow for a peer to deliver a

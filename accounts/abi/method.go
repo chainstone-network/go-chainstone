@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

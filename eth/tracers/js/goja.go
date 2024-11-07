@@ -25,12 +25,12 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/core/vm"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/eth/tracers"
-	jsassets "github.com/chainstone/go-chainstone/eth/tracers/js/internal/tracers"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/eth/tracers"
+	jsassets "github.com/chainstone-network/go-chainstone/eth/tracers/js/internal/tracers"
 )
 
 var assetTracers = make(map[string]string)

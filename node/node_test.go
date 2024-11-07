@@ -26,10 +26,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/ethdb"
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

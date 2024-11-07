@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 type AddrLocker struct {

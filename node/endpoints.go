@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/rpc"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint.

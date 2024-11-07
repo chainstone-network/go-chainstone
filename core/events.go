@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

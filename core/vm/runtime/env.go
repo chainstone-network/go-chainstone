@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

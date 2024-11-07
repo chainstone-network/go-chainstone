@@ -22,13 +22,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chainstone/go-chainstone/cmd/devp2p/internal/v4test"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/internal/flags"
-	"github.com/chainstone/go-chainstone/p2p/discover"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/cmd/devp2p/internal/v4test"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/internal/flags"
+	"github.com/chainstone-network/go-chainstone/p2p/discover"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/params"
 	"github.com/urfave/cli/v2"
 )
 

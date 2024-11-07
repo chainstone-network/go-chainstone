@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/light"
+	"github.com/chainstone-network/go-chainstone/light"
 )
 
 var (

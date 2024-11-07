@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/chainstone/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

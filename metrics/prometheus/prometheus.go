@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/metrics"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

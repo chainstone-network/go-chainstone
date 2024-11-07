@@ -23,10 +23,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/p2p/discover/v4wire"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/p2p/enr"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/p2p/discover/v4wire"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/enr"
 )
 
 func TestUDPv4_Lookup(t *testing.T) {

@@ -19,7 +19,7 @@ package netutil
 import (
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
 )
 
 // IPTracker predicts the external endpoint, i.e. IP address and port, of the local host

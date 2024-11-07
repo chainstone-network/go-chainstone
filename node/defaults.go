@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/p2p/nat"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/p2p/nat"
+	"github.com/chainstone-network/go-chainstone/rpc"
 )
 
 const (

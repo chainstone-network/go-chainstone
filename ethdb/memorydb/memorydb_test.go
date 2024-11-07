@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/chainstone/go-chainstone/ethdb"
-	"github.com/chainstone/go-chainstone/ethdb/dbtest"
+	"github.com/chainstone-network/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

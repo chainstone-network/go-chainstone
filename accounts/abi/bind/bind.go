@@ -17,7 +17,7 @@
 // Package bind generates Chainstoneeum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-chainstone Wiki page:
-// https://github.com/chainstone/go-chainstone/wiki/Native-DApps:-Go-bindings-to-Chainstoneeum-contracts
+// https://github.com/chainstone-network/go-chainstone/wiki/Native-DApps:-Go-bindings-to-Chainstoneeum-contracts
 package bind
 
 import (
@@ -30,8 +30,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/chainstone/go-chainstone/accounts/abi"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/accounts/abi"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

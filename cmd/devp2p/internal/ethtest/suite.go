@@ -19,10 +19,10 @@ package ethtest
 import (
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/eth/protocols/eth"
-	"github.com/chainstone/go-chainstone/internal/utesting"
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/eth/protocols/eth"
+	"github.com/chainstone-network/go-chainstone/internal/utesting"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

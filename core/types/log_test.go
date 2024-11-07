@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
 )
 
 var unmarshalLogTests = map[string]struct {

@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 func TestVector_ECDH(t *testing.T) {

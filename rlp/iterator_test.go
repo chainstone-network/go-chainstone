@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

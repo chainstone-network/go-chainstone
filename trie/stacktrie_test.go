@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/ethdb/memorydb"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/ethdb/memorydb"
 )
 
 func TestStackTrieInsertAndHash(t *testing.T) {

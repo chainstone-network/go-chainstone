@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/metrics"
-	"github.com/chainstone/go-chainstone/metrics/prometheus"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/metrics"
+	"github.com/chainstone-network/go-chainstone/metrics/prometheus"
 )
 
 type exp struct {

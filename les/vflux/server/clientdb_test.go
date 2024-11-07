@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/les/utils"
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/les/utils"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 func expval(v uint64) utils.ExpiredValue {

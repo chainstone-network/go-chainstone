@@ -25,17 +25,17 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/chainstone/go-chainstone/accounts"
-	"github.com/chainstone/go-chainstone/accounts/keystore"
-	"github.com/chainstone/go-chainstone/accounts/scwallet"
-	"github.com/chainstone/go-chainstone/accounts/usbwallet"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/internal/ethapi"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/rpc"
-	"github.com/chainstone/go-chainstone/signer/core/apitypes"
-	"github.com/chainstone/go-chainstone/signer/storage"
+	"github.com/chainstone-network/go-chainstone/accounts"
+	"github.com/chainstone-network/go-chainstone/accounts/keystore"
+	"github.com/chainstone-network/go-chainstone/accounts/scwallet"
+	"github.com/chainstone-network/go-chainstone/accounts/usbwallet"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/internal/ethapi"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/signer/core/apitypes"
+	"github.com/chainstone-network/go-chainstone/signer/storage"
 )
 
 const (

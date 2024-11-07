@@ -27,7 +27,7 @@ import (
 	"golang.org/x/tools/go/packages"
 )
 
-const pathOfPackageRLP = "github.com/chainstone/go-chainstone/rlp"
+const pathOfPackageRLP = "github.com/chainstone-network/go-chainstone/rlp"
 
 func main() {
 	var (

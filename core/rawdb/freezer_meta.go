@@ -20,8 +20,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 const freezerVersion = 1 // The initial version tag of freezer table metadata

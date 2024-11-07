@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/eth"
-	"github.com/chainstone/go-chainstone/eth/ethconfig"
-	"github.com/chainstone/go-chainstone/internal/utesting"
-	"github.com/chainstone/go-chainstone/node"
-	"github.com/chainstone/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/eth"
+	"github.com/chainstone-network/go-chainstone/eth/ethconfig"
+	"github.com/chainstone-network/go-chainstone/internal/utesting"
+	"github.com/chainstone-network/go-chainstone/node"
+	"github.com/chainstone-network/go-chainstone/p2p"
 )
 
 var (

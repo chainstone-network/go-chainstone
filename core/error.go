@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/chainstone/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/types"
 )
 
 var (

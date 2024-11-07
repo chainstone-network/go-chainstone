@@ -1,4 +1,3 @@
-//
 // The go-chainstone library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
@@ -13,8 +12,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/metrics"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/metrics"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
 )

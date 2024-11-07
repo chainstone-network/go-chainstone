@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 	"github.com/urfave/cli/v2"
 )
 

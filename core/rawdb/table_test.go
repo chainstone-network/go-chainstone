@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

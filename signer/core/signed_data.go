@@ -22,14 +22,14 @@ import (
 	"fmt"
 	"mime"
 
-	"github.com/chainstone/go-chainstone/accounts"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/consensus/clique"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/rlp"
-	"github.com/chainstone/go-chainstone/signer/core/apitypes"
+	"github.com/chainstone-network/go-chainstone/accounts"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/consensus/clique"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/signer/core/apitypes"
 )
 
 // sign receives a request and produces a signature
@@ -94,7 +94,7 @@ func (api *SignerAPI) SignData(ctx context.Context, contentType string, addr com
 // This method returns the mimetype for signing along with the request
 func (api *SignerAPI) determineSignatureFormat(ctx context.Context, contentType string, addr common.MixedcaseAddress, data interface{}) (*SignDataRequest, bool, error) {
 	var (
-		req          *SignDataRequest
+		req               *SignDataRequest
 		useChainstoneeumV = true // Default to use V = 27 or 28, the legacy Chainstoneeum format
 	)
 	mediaType, _, err := mime.ParseMediaType(contentType)
@@ -271,7 +271,7 @@ func (api *SignerAPI) EcRecover(ctx context.Context, data hexutil.Bytes, sig hex
 	// Note, the signature must conform to the secp256k1 curve R, S and V values, where
 	// the V value must be 27 or 28 for legacy reasons.
 	//
-	// https://github.com/chainstone/go-chainstone/wiki/Management-APIs#personal_ecRecover
+	// https://github.com/chainstone-network/go-chainstone/wiki/Management-APIs#personal_ecRecover
 	if len(sig) != 65 {
 		return common.Address{}, fmt.Errorf("signature must be 65 bytes long")
 	}

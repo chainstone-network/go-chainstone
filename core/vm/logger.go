@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

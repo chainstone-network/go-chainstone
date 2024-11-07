@@ -19,7 +19,7 @@ package eth
 import (
 	"time"
 
-	"github.com/chainstone/go-chainstone/p2p/tracker"
+	"github.com/chainstone-network/go-chainstone/p2p/tracker"
 )
 
 // requestTracker is a singleton tracker for eth/66 and newer request times.

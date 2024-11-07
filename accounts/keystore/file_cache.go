@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/chainstone-network/go-chainstone/log"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/chainstone/go-chainstone/log"
 )
 
 // fileCache is a cache of files seen during scan of keystore.

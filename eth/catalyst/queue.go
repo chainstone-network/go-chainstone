@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/beacon"
-	"github.com/chainstone/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/beacon"
+	"github.com/chainstone-network/go-chainstone/core/types"
 )
 
 // maxTrackedPayloads is the maximum number of prepared payloads the execution

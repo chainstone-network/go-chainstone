@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/chainstone/go-chainstone/metrics"
+	"github.com/chainstone-network/go-chainstone/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

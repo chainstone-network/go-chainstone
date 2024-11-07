@@ -17,8 +17,8 @@
 package ethapi
 
 import (
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
 )
 
 // DbGet returns the raw value of a key stored in the database.

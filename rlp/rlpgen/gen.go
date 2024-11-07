@@ -23,7 +23,7 @@ import (
 	"go/types"
 	"sort"
 
-	"github.com/chainstone/go-chainstone/rlp/internal/rlpstruct"
+	"github.com/chainstone-network/go-chainstone/rlp/internal/rlpstruct"
 )
 
 // buildContext keeps the data needed for make*Op.

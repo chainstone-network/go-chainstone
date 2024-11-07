@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/accounts"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/event"
+	"github.com/chainstone-network/go-chainstone/accounts"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/event"
 )
 
 var testSigData = make([]byte, 32)

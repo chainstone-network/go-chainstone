@@ -24,7 +24,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 type storedCredential struct {

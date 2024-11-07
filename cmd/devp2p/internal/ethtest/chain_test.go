@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/eth/protocols/eth"
-	"github.com/chainstone/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/eth/protocols/eth"
+	"github.com/chainstone-network/go-chainstone/p2p"
 	"github.com/stretchr/testify/assert"
 )
 

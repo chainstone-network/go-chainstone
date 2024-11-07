@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

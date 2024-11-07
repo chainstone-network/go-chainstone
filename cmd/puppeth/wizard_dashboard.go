@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

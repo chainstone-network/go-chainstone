@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/chainstone/go-chainstone/eth/filters"
-	"github.com/chainstone/go-chainstone/internal/ethapi"
-	"github.com/chainstone/go-chainstone/node"
+	"github.com/chainstone-network/go-chainstone/eth/filters"
+	"github.com/chainstone-network/go-chainstone/internal/ethapi"
+	"github.com/chainstone-network/go-chainstone/node"
 	"github.com/graph-gophers/graphql-go"
 )
 

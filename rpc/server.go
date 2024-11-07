@@ -21,8 +21,8 @@ import (
 	"io"
 	"sync/atomic"
 
+	"github.com/chainstone-network/go-chainstone/log"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/chainstone/go-chainstone/log"
 )
 
 const MetadataApi = "rpc"

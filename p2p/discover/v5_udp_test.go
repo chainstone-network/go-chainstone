@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/internal/testlog"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/p2p/discover/v5wire"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/p2p/enr"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/internal/testlog"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/p2p/discover/v5wire"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/enr"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 // Real sockets, real crypto: this test checks end-to-end connectivity for UDPv5.

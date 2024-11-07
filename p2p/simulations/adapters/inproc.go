@@ -24,13 +24,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/chainstone/go-chainstone/event"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/node"
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/p2p/simulations/pipes"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/event"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/node"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/simulations/pipes"
+	"github.com/chainstone-network/go-chainstone/rpc"
 	"github.com/gorilla/websocket"
 )
 

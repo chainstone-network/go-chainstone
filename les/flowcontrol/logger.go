@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

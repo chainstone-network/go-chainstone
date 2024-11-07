@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/ethdb"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/rlp"
 	"github.com/stretchr/testify/require"
 )
 

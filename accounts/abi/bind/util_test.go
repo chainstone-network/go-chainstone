@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/accounts/abi/bind"
-	"github.com/chainstone/go-chainstone/accounts/abi/bind/backends"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/accounts/abi/bind"
+	"github.com/chainstone-network/go-chainstone/accounts/abi/bind/backends"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

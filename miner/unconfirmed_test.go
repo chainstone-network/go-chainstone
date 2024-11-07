@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/chainstone/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

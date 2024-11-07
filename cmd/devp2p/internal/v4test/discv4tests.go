@@ -23,9 +23,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/internal/utesting"
-	"github.com/chainstone/go-chainstone/p2p/discover/v4wire"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/internal/utesting"
+	"github.com/chainstone-network/go-chainstone/p2p/discover/v4wire"
 )
 
 const (

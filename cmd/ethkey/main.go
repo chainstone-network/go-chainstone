@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainstone/go-chainstone/internal/flags"
+	"github.com/chainstone-network/go-chainstone/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainstone/go-chainstone/cmd/evm/internal/compiler"
+	"github.com/chainstone-network/go-chainstone/cmd/evm/internal/compiler"
 
 	"github.com/urfave/cli/v2"
 )

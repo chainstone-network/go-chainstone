@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/p2p/netutil"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

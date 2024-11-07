@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/chainstone/go-chainstone"
-	"github.com/chainstone/go-chainstone/event"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone"
+	"github.com/chainstone-network/go-chainstone/event"
+	"github.com/chainstone-network/go-chainstone/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current synchronisation status.
@@ -121,7 +121,7 @@ func (api *DownloaderAPI) Syncing(ctx context.Context) (*rpc.Subscription, error
 
 // SyncingResult provides information about the current synchronisation status for this node.
 type SyncingResult struct {
-	Syncing bool                  `json:"syncing"`
+	Syncing bool                    `json:"syncing"`
 	Status  chainstone.SyncProgress `json:"status"`
 }
 

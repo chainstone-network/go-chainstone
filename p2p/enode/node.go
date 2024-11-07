@@ -26,8 +26,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/p2p/enr"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/p2p/enr"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

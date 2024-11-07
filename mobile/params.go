@@ -21,9 +21,9 @@ package gchain
 import (
 	"encoding/json"
 
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Chainstoneeum network. It

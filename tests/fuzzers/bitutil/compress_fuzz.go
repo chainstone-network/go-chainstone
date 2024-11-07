@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"github.com/chainstone/go-chainstone/common/bitutil"
+	"github.com/chainstone-network/go-chainstone/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

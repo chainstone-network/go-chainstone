@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

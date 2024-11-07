@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

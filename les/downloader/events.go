@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/chainstone/go-chainstone/core/types"
+import "github.com/chainstone-network/go-chainstone/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

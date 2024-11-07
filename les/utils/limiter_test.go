@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 const (

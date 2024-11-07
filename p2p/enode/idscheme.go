@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/p2p/enr"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/p2p/enr"
+	"github.com/chainstone-network/go-chainstone/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

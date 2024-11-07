@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
 )
 
 func TestTextHash(t *testing.T) {

@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

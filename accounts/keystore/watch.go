@@ -22,7 +22,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 	"github.com/rjeczalik/notify"
 )
 

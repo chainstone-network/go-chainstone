@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/chainstone/go-chainstone/les/utils"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/les/utils"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

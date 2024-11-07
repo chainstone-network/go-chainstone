@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/internal/utesting"
-	"github.com/chainstone/go-chainstone/p2p/discover/v5wire"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/p2p/netutil"
+	"github.com/chainstone-network/go-chainstone/internal/utesting"
+	"github.com/chainstone-network/go-chainstone/p2p/discover/v5wire"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/netutil"
 )
 
 // Suite is the discv5 test suite.

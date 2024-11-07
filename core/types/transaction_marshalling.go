@@ -21,8 +21,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
 )
 
 // txJSON is the JSON representation of transactions.

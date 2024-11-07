@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 type MyCoolType struct {

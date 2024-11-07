@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/chainstone/go-chainstone/accounts"
-	"github.com/chainstone/go-chainstone/accounts/abi/bind"
-	"github.com/chainstone/go-chainstone/accounts/external"
-	"github.com/chainstone/go-chainstone/cmd/utils"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/contracts/checkpointoracle"
-	"github.com/chainstone/go-chainstone/ethclient"
-	"github.com/chainstone/go-chainstone/params"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/accounts"
+	"github.com/chainstone-network/go-chainstone/accounts/abi/bind"
+	"github.com/chainstone-network/go-chainstone/accounts/external"
+	"github.com/chainstone-network/go-chainstone/cmd/utils"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/contracts/checkpointoracle"
+	"github.com/chainstone-network/go-chainstone/ethclient"
+	"github.com/chainstone-network/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/rpc"
 	"github.com/urfave/cli/v2"
 )
 

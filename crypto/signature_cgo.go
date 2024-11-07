@@ -24,8 +24,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/crypto/secp256k1"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

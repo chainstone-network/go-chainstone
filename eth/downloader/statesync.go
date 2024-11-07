@@ -19,8 +19,8 @@ package downloader
 import (
 	"sync"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // syncState starts downloading state with the given root hash.

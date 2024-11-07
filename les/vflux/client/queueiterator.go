@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/p2p/nodestate"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/nodestate"
 )
 
 // QueueIterator returns nodes from the specified selectable set in the same order as

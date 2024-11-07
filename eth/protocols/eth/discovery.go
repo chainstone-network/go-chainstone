@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/forkid"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/forkid"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `eth` protocol on the discovery.

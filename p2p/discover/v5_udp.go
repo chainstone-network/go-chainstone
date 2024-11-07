@@ -29,12 +29,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/p2p/discover/v5wire"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/p2p/enr"
-	"github.com/chainstone/go-chainstone/p2p/netutil"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/p2p/discover/v5wire"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/enr"
+	"github.com/chainstone-network/go-chainstone/p2p/netutil"
 )
 
 const (

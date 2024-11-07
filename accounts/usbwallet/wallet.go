@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone"
-	"github.com/chainstone/go-chainstone/accounts"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone"
+	"github.com/chainstone-network/go-chainstone/accounts"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/log"
 	"github.com/karalabe/usb"
 )
 
@@ -85,11 +85,11 @@ type wallet struct {
 	accounts []accounts.Account                         // List of derive accounts pinned on the hardware wallet
 	paths    map[common.Address]accounts.DerivationPath // Known derivation paths for signing operations
 
-	deriveNextPaths []accounts.DerivationPath // Next derivation paths for account auto-discovery (multiple bases supported)
-	deriveNextAddrs []common.Address          // Next derived account addresses for auto-discovery (multiple bases supported)
+	deriveNextPaths []accounts.DerivationPath   // Next derivation paths for account auto-discovery (multiple bases supported)
+	deriveNextAddrs []common.Address            // Next derived account addresses for auto-discovery (multiple bases supported)
 	deriveChain     chainstone.ChainStateReader // Blockchain state reader to discover used account with
-	deriveReq       chan chan struct{}        // Channel to request a self-derivation on
-	deriveQuit      chan chan error           // Channel to terminate the self-deriver with
+	deriveReq       chan chan struct{}          // Channel to request a self-derivation on
+	deriveQuit      chan chan error             // Channel to terminate the self-deriver with
 
 	healthQuit chan chan error
 

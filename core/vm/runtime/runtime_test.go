@@ -23,21 +23,21 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/accounts/abi"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/consensus"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/asm"
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/core/state"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/core/vm"
-	"github.com/chainstone/go-chainstone/eth/tracers"
-	"github.com/chainstone/go-chainstone/eth/tracers/logger"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/accounts/abi"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/consensus"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/asm"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/core/state"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/eth/tracers"
+	"github.com/chainstone-network/go-chainstone/eth/tracers/logger"
+	"github.com/chainstone-network/go-chainstone/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/chainstone/go-chainstone/eth/tracers/js"
+	_ "github.com/chainstone-network/go-chainstone/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -604,7 +604,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/chainstone/go-chainstone/issues/22649
+// see: https://github.com/chainstone-network/go-chainstone/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
-	"github.com/chainstone/go-chainstone/les/utils"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

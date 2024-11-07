@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/chainstone/go-chainstone/crypto"
+	ethcrypto "github.com/chainstone-network/go-chainstone/crypto"
 )
 
 var (

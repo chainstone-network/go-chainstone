@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

@@ -19,7 +19,7 @@ package types
 import (
 	"errors"
 
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 // IsLegacyStoredReceipts tries to parse the RLP-encoded blob

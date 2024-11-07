@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 func TestMocker(t *testing.T) {

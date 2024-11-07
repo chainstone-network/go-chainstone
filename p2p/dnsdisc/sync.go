@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

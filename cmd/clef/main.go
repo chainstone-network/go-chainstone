@@ -33,25 +33,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chainstone/go-chainstone/accounts"
-	"github.com/chainstone/go-chainstone/accounts/keystore"
-	"github.com/chainstone/go-chainstone/cmd/utils"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/internal/ethapi"
-	"github.com/chainstone/go-chainstone/internal/flags"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/node"
-	"github.com/chainstone/go-chainstone/params"
-	"github.com/chainstone/go-chainstone/rlp"
-	"github.com/chainstone/go-chainstone/rpc"
-	"github.com/chainstone/go-chainstone/signer/core"
-	"github.com/chainstone/go-chainstone/signer/core/apitypes"
-	"github.com/chainstone/go-chainstone/signer/fourbyte"
-	"github.com/chainstone/go-chainstone/signer/rules"
-	"github.com/chainstone/go-chainstone/signer/storage"
+	"github.com/chainstone-network/go-chainstone/accounts"
+	"github.com/chainstone-network/go-chainstone/accounts/keystore"
+	"github.com/chainstone-network/go-chainstone/cmd/utils"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/internal/ethapi"
+	"github.com/chainstone-network/go-chainstone/internal/flags"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/node"
+	"github.com/chainstone-network/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/signer/core"
+	"github.com/chainstone-network/go-chainstone/signer/core/apitypes"
+	"github.com/chainstone-network/go-chainstone/signer/fourbyte"
+	"github.com/chainstone-network/go-chainstone/signer/rules"
+	"github.com/chainstone-network/go-chainstone/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
@@ -736,7 +736,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/chainstone/go-chainstone/issues/20123
+	// https://github.com/chainstone-network/go-chainstone/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

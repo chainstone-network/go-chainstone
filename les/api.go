@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/common/mclock"
-	vfs "github.com/chainstone/go-chainstone/les/vflux/server"
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
+	vfs "github.com/chainstone-network/go-chainstone/les/vflux/server"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 var (
@@ -366,10 +366,11 @@ func NewLightAPI(backend *lesCommons) *LightAPI {
 // LatestCheckpoint returns the latest local checkpoint package.
 //
 // The checkpoint package consists of 4 strings:
-//   result[0], hex encoded latest section index
-//   result[1], 32 bytes hex encoded latest section head hash
-//   result[2], 32 bytes hex encoded latest section canonical hash trie root hash
-//   result[3], 32 bytes hex encoded latest section bloom trie root hash
+//
+//	result[0], hex encoded latest section index
+//	result[1], 32 bytes hex encoded latest section head hash
+//	result[2], 32 bytes hex encoded latest section canonical hash trie root hash
+//	result[3], 32 bytes hex encoded latest section bloom trie root hash
 func (api *LightAPI) LatestCheckpoint() ([4]string, error) {
 	var res [4]string
 	cp := api.backend.latestLocalCheckpoint()
@@ -384,9 +385,10 @@ func (api *LightAPI) LatestCheckpoint() ([4]string, error) {
 // GetLocalCheckpoint returns the specific local checkpoint package.
 //
 // The checkpoint package consists of 3 strings:
-//   result[0], 32 bytes hex encoded latest section head hash
-//   result[1], 32 bytes hex encoded latest section canonical hash trie root hash
-//   result[2], 32 bytes hex encoded latest section bloom trie root hash
+//
+//	result[0], 32 bytes hex encoded latest section head hash
+//	result[1], 32 bytes hex encoded latest section canonical hash trie root hash
+//	result[2], 32 bytes hex encoded latest section bloom trie root hash
 func (api *LightAPI) GetCheckpoint(index uint64) ([3]string, error) {
 	var res [3]string
 	cp := api.backend.localCheckpoint(index)

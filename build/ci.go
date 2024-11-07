@@ -24,19 +24,18 @@ Usage: go run build/ci.go <command> <command flags/arguments>
 
 Available commands are:
 
-   install    [ -arch architecture ] [ -cc compiler ] [ packages... ]                          -- builds packages and executables
-   test       [ -coverage ] [ packages... ]                                                    -- runs the tests
-   lint                                                                                        -- runs certain pre-selected linters
-   archive    [ -arch architecture ] [ -type zip|tar ] [ -signer key-envvar ] [ -signify key-envvar ] [ -upload dest ] -- archives build artifacts
-   importkeys                                                                                  -- imports signing keys from env
-   debsrc     [ -signer key-id ] [ -upload dest ]                                              -- creates a debian source package
-   nsis                                                                                        -- creates a Windows NSIS installer
-   aar        [ -local ] [ -sign key-id ] [-deploy repo] [ -upload dest ]                      -- creates an Android archive
-   xcode      [ -local ] [ -sign key-id ] [-deploy repo] [ -upload dest ]                      -- creates an iOS XCode framework
-   purge      [ -store blobstore ] [ -days threshold ]                                         -- purges old archives from the blobstore
+	install    [ -arch architecture ] [ -cc compiler ] [ packages... ]                          -- builds packages and executables
+	test       [ -coverage ] [ packages... ]                                                    -- runs the tests
+	lint                                                                                        -- runs certain pre-selected linters
+	archive    [ -arch architecture ] [ -type zip|tar ] [ -signer key-envvar ] [ -signify key-envvar ] [ -upload dest ] -- archives build artifacts
+	importkeys                                                                                  -- imports signing keys from env
+	debsrc     [ -signer key-id ] [ -upload dest ]                                              -- creates a debian source package
+	nsis                                                                                        -- creates a Windows NSIS installer
+	aar        [ -local ] [ -sign key-id ] [-deploy repo] [ -upload dest ]                      -- creates an Android archive
+	xcode      [ -local ] [ -sign key-id ] [-deploy repo] [ -upload dest ]                      -- creates an iOS XCode framework
+	purge      [ -store blobstore ] [ -days threshold ]                                         -- purges old archives from the blobstore
 
 For all commands, -n prevents execution of external programs (dry run mode).
-
 */
 package main
 
@@ -58,10 +57,10 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/crypto/signify"
-	"github.com/chainstone/go-chainstone/internal/build"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/crypto/signify"
+	"github.com/chainstone-network/go-chainstone/internal/build"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 var (
@@ -392,10 +391,10 @@ func doArchive(cmdline []string) {
 	}
 
 	var (
-		env      = build.Env()
+		env        = build.Env()
 		basegchain = archiveBasename(*arch, params.ArchiveVersion(env.Commit))
 		gchain     = "gchain-" + basegchain + ext
-		alltools = "gchain-alltools-" + basegchain + ext
+		alltools   = "gchain-alltools-" + basegchain + ext
 	)
 	maybeSkipArchive(env)
 	if err := build.WriteArchive(gchain, gchainArchiveFiles); err != nil {
@@ -941,8 +940,8 @@ func doWindowsInstaller(cmdline []string) {
 
 	// Aggregate binaries that are included in the installer
 	var (
-		devTools []string
-		allTools []string
+		devTools   []string
+		allTools   []string
 		gchainTool string
 	)
 	for _, file := range allToolsArchiveFiles {
@@ -961,7 +960,7 @@ func doWindowsInstaller(cmdline []string) {
 	// first section contains the gchain binary, second section holds the dev tools.
 	templateData := map[string]interface{}{
 		"License":  "COPYING",
-		"Gchain":     gchainTool,
+		"Gchain":   gchainTool,
 		"DevTools": devTools,
 	}
 	build.Render("build/nsis.gchain.nsi", filepath.Join(*workdir, "gchain.nsi"), 0644, nil)
@@ -1026,7 +1025,7 @@ func doAndroidArchive(cmdline []string) {
 	build.MustRun(tc.Go("mod", "download"))
 
 	// Build the Android archive and Maven resources
-	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.chainstone", "-v", "github.com/chainstone/go-chainstone/mobile"))
+	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.chainstone", "-v", "github.com/chainstone-network/go-chainstone/mobile"))
 
 	if *local {
 		// If we're building locally, copy bundle to build dir and skip Maven
@@ -1151,7 +1150,7 @@ func doXCodeFramework(cmdline []string) {
 	build.MustRun(tc.Install(GOBIN, "golang.org/x/mobile/cmd/gomobile", "golang.org/x/mobile/cmd/gobind"))
 
 	// Build the iOS XCode framework
-	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "-v", "github.com/chainstone/go-chainstone/mobile")
+	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "-v", "github.com/chainstone-network/go-chainstone/mobile")
 
 	if *local {
 		// If we're building locally, use the build folder and stop afterwards

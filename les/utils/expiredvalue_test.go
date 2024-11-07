@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/common/math"
 )
 
 type testEncoder struct {

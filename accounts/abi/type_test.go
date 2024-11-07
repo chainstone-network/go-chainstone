@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/chainstone-network/go-chainstone/common"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/chainstone/go-chainstone/common"
 )
 
 // typeWithoutStringer is a alias for the Type type which simply doesn't implement

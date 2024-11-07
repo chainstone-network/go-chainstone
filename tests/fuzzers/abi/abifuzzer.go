@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/accounts/abi"
+	"github.com/chainstone-network/go-chainstone/accounts/abi"
 	fuzz "github.com/google/gofuzz"
 )
 

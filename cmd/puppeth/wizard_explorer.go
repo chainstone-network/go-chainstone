@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

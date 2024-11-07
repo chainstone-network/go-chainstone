@@ -21,8 +21,8 @@ package gchain
 import (
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/ethclient"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/ethclient"
 )
 
 // ChainstoneeumClient provides access to the Chainstoneeum APIs.

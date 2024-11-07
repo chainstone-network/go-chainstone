@@ -16,7 +16,7 @@
 
 package rawdb
 
-import "github.com/chainstone/go-chainstone/ethdb"
+import "github.com/chainstone-network/go-chainstone/ethdb"
 
 // KeyLengthIterator is a wrapper for a database iterator that ensures only key-value pairs
 // with a specific key length will be returned.

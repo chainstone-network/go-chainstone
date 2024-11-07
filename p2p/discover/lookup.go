@@ -21,7 +21,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 // lookup performs a network search for nodes close to the given target. It approaches the

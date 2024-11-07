@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/state"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

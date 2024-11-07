@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 func TestPairingExpected(t *testing.T) {

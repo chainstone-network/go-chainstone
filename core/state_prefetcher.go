@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/chainstone/go-chainstone/consensus"
-	"github.com/chainstone/go-chainstone/core/state"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/core/vm"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/consensus"
+	"github.com/chainstone-network/go-chainstone/core/state"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

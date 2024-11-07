@@ -21,10 +21,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/chainstone/go-chainstone/internal/debug"
-	"github.com/chainstone/go-chainstone/internal/flags"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/internal/debug"
+	"github.com/chainstone-network/go-chainstone/internal/flags"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/params"
 	"github.com/urfave/cli/v2"
 )
 

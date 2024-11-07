@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
 )
 
 func TestExpHeap(t *testing.T) {

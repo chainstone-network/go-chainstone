@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/eth/downloader"
-	"github.com/chainstone/go-chainstone/eth/ethconfig"
-	"github.com/chainstone/go-chainstone/ethclient"
-	"github.com/chainstone/go-chainstone/ethstats"
-	"github.com/chainstone/go-chainstone/internal/debug"
-	"github.com/chainstone/go-chainstone/les"
-	"github.com/chainstone/go-chainstone/node"
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/p2p/nat"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/eth/downloader"
+	"github.com/chainstone-network/go-chainstone/eth/ethconfig"
+	"github.com/chainstone-network/go-chainstone/ethclient"
+	"github.com/chainstone-network/go-chainstone/ethstats"
+	"github.com/chainstone-network/go-chainstone/internal/debug"
+	"github.com/chainstone-network/go-chainstone/les"
+	"github.com/chainstone-network/go-chainstone/node"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/p2p/nat"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Gchain
@@ -77,8 +77,8 @@ type NodeConfig struct {
 // defaultNodeConfig contains the default node configuration values to use if all
 // or some fields are missing from the user's specified list.
 var defaultNodeConfig = &NodeConfig{
-	BootstrapNodes:        FoundationBootnodes(),
-	MaxPeers:              25,
+	BootstrapNodes:             FoundationBootnodes(),
+	MaxPeers:                   25,
 	ChainstoneeumEnabled:       true,
 	ChainstoneeumNetworkID:     1,
 	ChainstoneeumDatabaseCache: 16,

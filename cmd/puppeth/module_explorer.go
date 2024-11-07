@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.
@@ -137,10 +137,10 @@ type explorerInfos struct {
 // most - but not all - fields for reporting to the user.
 func (info *explorerInfos) Report() map[string]string {
 	report := map[string]string{
-		"Website address ":        info.host,
-		"Website listener port ":  strconv.Itoa(info.port),
+		"Website address ":             info.host,
+		"Website listener port ":       strconv.Itoa(info.port),
 		"Chainstoneeum listener port ": strconv.Itoa(info.node.port),
-		"Ethstats username":       info.node.ethstats,
+		"Ethstats username":            info.node.ethstats,
 	}
 	return report
 }

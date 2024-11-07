@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 func bigFromHex(hex string) *big.Int {

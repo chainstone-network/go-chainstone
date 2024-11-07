@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/p2p/enr"
+	"github.com/chainstone-network/go-chainstone/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

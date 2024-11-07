@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/chainstone/go-chainstone/internal/ethapi"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/internal/ethapi"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/rpc"
 )
 
 type StdIOUI struct {

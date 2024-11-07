@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/cmd/utils"
-	"github.com/chainstone/go-chainstone/consensus/ethash"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/cmd/utils"
+	"github.com/chainstone-network/go-chainstone/consensus/ethash"
+	"github.com/chainstone-network/go-chainstone/params"
 	"github.com/urfave/cli/v2"
 )
 

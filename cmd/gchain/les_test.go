@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/rpc"
 )
 
 type gchainrpc struct {
 	name     string
 	rpc      *rpc.Client
-	gchain     *testgchain
+	gchain   *testgchain
 	nodeInfo *p2p.NodeInfo
 }
 
@@ -115,7 +115,7 @@ func startGchainWithIpc(t *testing.T, name string, args ...string) *gchainrpc {
 	t.Logf("Starting %v with rpc: %v", name, args)
 
 	g := &gchainrpc{
-		name: name,
+		name:   name,
 		gchain: runGchain(t, args...),
 	}
 	ipcpath := ipcEndpoint(ipcName, g.gchain.Datadir)

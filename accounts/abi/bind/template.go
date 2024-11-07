@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/chainstone/go-chainstone/accounts/abi"
+import "github.com/chainstone-network/go-chainstone/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -92,12 +92,12 @@ import (
 	"strings"
 	"errors"
 
-	chainstone "github.com/chainstone/go-chainstone"
-	"github.com/chainstone/go-chainstone/accounts/abi"
-	"github.com/chainstone/go-chainstone/accounts/abi/bind"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/event"
+	chainstone "github.com/chainstone-network/go-chainstone"
+	"github.com/chainstone-network/go-chainstone/accounts/abi"
+	"github.com/chainstone-network/go-chainstone/accounts/abi/bind"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

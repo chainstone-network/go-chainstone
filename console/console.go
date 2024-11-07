@@ -29,12 +29,12 @@ import (
 	"sync"
 	"syscall"
 
+	"github.com/chainstone-network/go-chainstone/console/prompt"
+	"github.com/chainstone-network/go-chainstone/internal/jsre"
+	"github.com/chainstone-network/go-chainstone/internal/jsre/deps"
+	"github.com/chainstone-network/go-chainstone/internal/web3ext"
+	"github.com/chainstone-network/go-chainstone/rpc"
 	"github.com/dop251/goja"
-	"github.com/chainstone/go-chainstone/console/prompt"
-	"github.com/chainstone/go-chainstone/internal/jsre"
-	"github.com/chainstone/go-chainstone/internal/jsre/deps"
-	"github.com/chainstone/go-chainstone/internal/web3ext"
-	"github.com/chainstone/go-chainstone/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

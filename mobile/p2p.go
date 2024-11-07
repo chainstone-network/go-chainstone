@@ -21,7 +21,7 @@ package gchain
 import (
 	"errors"
 
-	"github.com/chainstone/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 func nodeToBytes(n node) []byte {

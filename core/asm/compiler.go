@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/core/vm"
 )
 
 // Compiler contains information about the parsed source

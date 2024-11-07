@@ -19,8 +19,8 @@ package console
 import (
 	"testing"
 
+	"github.com/chainstone-network/go-chainstone/internal/jsre"
 	"github.com/dop251/goja"
-	"github.com/chainstone/go-chainstone/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

@@ -21,8 +21,8 @@ package gchain
 import (
 	"errors"
 
-	"github.com/chainstone/go-chainstone"
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // Subscription represents an event subscription where events are

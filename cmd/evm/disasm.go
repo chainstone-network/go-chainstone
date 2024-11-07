@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/core/asm"
+	"github.com/chainstone-network/go-chainstone/core/asm"
 	"github.com/urfave/cli/v2"
 )
 

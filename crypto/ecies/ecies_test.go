@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/crypto"
 )
 
 func TestKDF(t *testing.T) {

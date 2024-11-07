@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

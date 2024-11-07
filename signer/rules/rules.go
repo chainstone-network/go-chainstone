@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/chainstone-network/go-chainstone/internal/ethapi"
+	"github.com/chainstone-network/go-chainstone/internal/jsre/deps"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/signer/core"
+	"github.com/chainstone-network/go-chainstone/signer/storage"
 	"github.com/dop251/goja"
-	"github.com/chainstone/go-chainstone/internal/ethapi"
-	"github.com/chainstone/go-chainstone/internal/jsre/deps"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/signer/core"
-	"github.com/chainstone/go-chainstone/signer/storage"
 )
 
 // consoleOutput is an override for the console.log and console.error methods to

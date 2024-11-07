@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

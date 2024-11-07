@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

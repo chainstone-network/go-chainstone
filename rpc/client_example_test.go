@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

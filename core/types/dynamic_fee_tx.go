@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 type DynamicFeeTx struct {

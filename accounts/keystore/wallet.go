@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/chainstone/go-chainstone"
-	"github.com/chainstone/go-chainstone/accounts"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone"
+	"github.com/chainstone-network/go-chainstone/accounts"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

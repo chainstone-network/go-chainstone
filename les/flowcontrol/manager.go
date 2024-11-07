@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
-	"github.com/chainstone/go-chainstone/common/prque"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

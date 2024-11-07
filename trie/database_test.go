@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/ethdb/memorydb"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

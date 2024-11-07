@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainstone/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/p2p"
 )
 
 var (

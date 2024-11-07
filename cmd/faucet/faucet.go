@@ -39,23 +39,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/accounts"
-	"github.com/chainstone/go-chainstone/accounts/keystore"
-	"github.com/chainstone/go-chainstone/cmd/utils"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/eth/downloader"
-	"github.com/chainstone/go-chainstone/eth/ethconfig"
-	"github.com/chainstone/go-chainstone/ethclient"
-	"github.com/chainstone/go-chainstone/ethstats"
-	"github.com/chainstone/go-chainstone/les"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/node"
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/p2p/nat"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/accounts"
+	"github.com/chainstone-network/go-chainstone/accounts/keystore"
+	"github.com/chainstone-network/go-chainstone/cmd/utils"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/eth/downloader"
+	"github.com/chainstone-network/go-chainstone/eth/ethconfig"
+	"github.com/chainstone-network/go-chainstone/ethclient"
+	"github.com/chainstone-network/go-chainstone/ethstats"
+	"github.com/chainstone-network/go-chainstone/les"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/node"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/nat"
+	"github.com/chainstone-network/go-chainstone/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -466,7 +466,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/chainstone/go-chainstone/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/chainstone-network/go-chainstone/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

@@ -19,7 +19,7 @@ package p2p
 import (
 	"container/heap"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
 )
 
 // expHeap tracks strings and their expiry time.

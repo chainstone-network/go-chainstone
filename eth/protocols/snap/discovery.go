@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

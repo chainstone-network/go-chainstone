@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/internal/testlog"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/internal/testlog"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

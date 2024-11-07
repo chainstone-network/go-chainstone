@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 func TestTransaction(t *testing.T) {

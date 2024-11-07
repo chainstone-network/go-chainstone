@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

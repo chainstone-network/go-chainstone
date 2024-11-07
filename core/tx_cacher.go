@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/chainstone/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

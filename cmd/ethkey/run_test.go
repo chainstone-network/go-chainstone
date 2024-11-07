@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/chainstone-network/go-chainstone/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/chainstone/go-chainstone/internal/cmdtest"
 )
 
 type testEthkey struct {

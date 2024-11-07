@@ -26,20 +26,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/accounts"
-	"github.com/chainstone/go-chainstone/accounts/keystore"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/internal/ethapi"
-	"github.com/chainstone/go-chainstone/rlp"
-	"github.com/chainstone/go-chainstone/signer/core"
-	"github.com/chainstone/go-chainstone/signer/core/apitypes"
-	"github.com/chainstone/go-chainstone/signer/fourbyte"
-	"github.com/chainstone/go-chainstone/signer/storage"
+	"github.com/chainstone-network/go-chainstone/accounts"
+	"github.com/chainstone-network/go-chainstone/accounts/keystore"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/internal/ethapi"
+	"github.com/chainstone-network/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/signer/core"
+	"github.com/chainstone-network/go-chainstone/signer/core/apitypes"
+	"github.com/chainstone-network/go-chainstone/signer/fourbyte"
+	"github.com/chainstone-network/go-chainstone/signer/storage"
 )
 
-//Used for testing
+// Used for testing
 type headlessUi struct {
 	approveCh chan string // to send approve/deny
 	inputCh   chan string // to send password

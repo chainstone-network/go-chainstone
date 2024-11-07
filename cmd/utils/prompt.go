@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/console/prompt"
+	"github.com/chainstone-network/go-chainstone/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

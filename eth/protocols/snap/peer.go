@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

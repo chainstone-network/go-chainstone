@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/bitutil"
-	"github.com/chainstone/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/common/bitutil"
+	"github.com/chainstone-network/go-chainstone/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

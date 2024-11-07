@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

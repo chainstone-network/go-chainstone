@@ -24,9 +24,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/chainstone-network/go-chainstone/cmd/evm/internal/t8ntool"
+	"github.com/chainstone-network/go-chainstone/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/chainstone/go-chainstone/cmd/evm/internal/t8ntool"
-	"github.com/chainstone/go-chainstone/internal/cmdtest"
 )
 
 func TestMain(m *testing.M) {

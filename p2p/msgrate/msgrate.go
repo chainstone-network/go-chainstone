@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // measurementImpact is the impact a single measurement has on a peer's final

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
 )
 
 type UpdateTimer struct {

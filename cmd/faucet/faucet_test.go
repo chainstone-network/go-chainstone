@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 func TestFacebook(t *testing.T) {

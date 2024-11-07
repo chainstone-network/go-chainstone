@@ -5,7 +5,7 @@
 
 package types
 
-import "github.com/chainstone/go-chainstone/rlp"
+import "github.com/chainstone-network/go-chainstone/rlp"
 import "io"
 
 func (obj *Header) EncodeRLP(_w io.Writer) error {

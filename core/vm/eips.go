@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/params"
 	"github.com/holiman/uint256"
 )
 

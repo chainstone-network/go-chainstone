@@ -23,21 +23,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
-	"github.com/chainstone/go-chainstone/consensus/ethash"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/core/beacon"
-	"github.com/chainstone/go-chainstone/core/rawdb"
-	"github.com/chainstone/go-chainstone/core/types"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/eth"
-	"github.com/chainstone/go-chainstone/eth/downloader"
-	"github.com/chainstone/go-chainstone/eth/ethconfig"
-	"github.com/chainstone/go-chainstone/node"
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/params"
-	"github.com/chainstone/go-chainstone/trie"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/consensus/ethash"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/core/beacon"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/eth"
+	"github.com/chainstone-network/go-chainstone/eth/downloader"
+	"github.com/chainstone-network/go-chainstone/eth/ethconfig"
+	"github.com/chainstone-network/go-chainstone/node"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/trie"
 )
 
 var (
@@ -523,7 +523,7 @@ func TestExchangeTransitionConfig(t *testing.T) {
 TestNewPayloadOnInvalidChain sets up a valid chain and tries to feed blocks
 from an invalid chain to test if latestValidHash (LVH) works correctly.
 
-We set up the following chain where P1 ... Pn and P1'' are valid while
+We set up the following chain where P1 ... Pn and P1” are valid while
 P1' is invalid.
 We expect
 (1) The LVH to point to the current inserted payload if it was valid.
@@ -531,10 +531,11 @@ We expect
 (3) If the parent is unavailable, the LVH should not be set.
 
 CommonAncestor◄─▲── P1 ◄── P2  ◄─ P3  ◄─ ... ◄─ Pn
-				│
-				└── P1' ◄─ P2' ◄─ P3' ◄─ ... ◄─ Pn'
-				│
-				└── P1''
+
+	│
+	└── P1' ◄─ P2' ◄─ P3' ◄─ ... ◄─ Pn'
+	│
+	└── P1''
 */
 func TestNewPayloadOnInvalidChain(t *testing.T) {
 	genesis, preMergeBlocks := generatePreMergeChain(10)

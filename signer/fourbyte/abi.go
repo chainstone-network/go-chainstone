@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/accounts/abi"
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/accounts/abi"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

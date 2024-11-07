@@ -23,16 +23,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/chainstone-network/go-chainstone/internal/cmdtest"
+	"github.com/chainstone-network/go-chainstone/rpc"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/chainstone/go-chainstone/internal/cmdtest"
-	"github.com/chainstone/go-chainstone/rpc"
 )
 
 type testgchain struct {
 	*cmdtest.TestCmd
 
 	// template variables for expect
-	Datadir   string
+	Datadir        string
 	Chainstonebase string
 }
 

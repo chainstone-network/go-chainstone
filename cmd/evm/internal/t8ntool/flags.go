@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/core/vm"
-	"github.com/chainstone/go-chainstone/tests"
+	"github.com/chainstone-network/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/tests"
 	"github.com/urfave/cli/v2"
 )
 

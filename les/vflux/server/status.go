@@ -19,7 +19,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/chainstone/go-chainstone/p2p/nodestate"
+	"github.com/chainstone-network/go-chainstone/p2p/nodestate"
 )
 
 type peerWrapper struct{ clientPeer } // the NodeStateMachine type system needs this wrapper

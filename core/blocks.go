@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/chainstone/go-chainstone/common"
+import "github.com/chainstone-network/go-chainstone/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/chainstone/go-chainstone/metrics"
+	"github.com/chainstone-network/go-chainstone/metrics"
 )
 
 var (

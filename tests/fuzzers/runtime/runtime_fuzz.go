@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/chainstone/go-chainstone/core/vm/runtime"
+	"github.com/chainstone-network/go-chainstone/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

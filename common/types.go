@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
 )
 
 func TestIteratorHold(t *testing.T) {

@@ -19,7 +19,7 @@ package snap
 import (
 	"time"
 
-	"github.com/chainstone/go-chainstone/p2p/tracker"
+	"github.com/chainstone-network/go-chainstone/p2p/tracker"
 )
 
 // requestTracker is a singleton tracker for request times.

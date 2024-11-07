@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainstone/go-chainstone/tests/fuzzers/rangeproof"
+	"github.com/chainstone-network/go-chainstone/tests/fuzzers/rangeproof"
 )
 
 func main() {

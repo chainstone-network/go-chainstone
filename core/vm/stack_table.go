@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 func minSwapStack(n int) int {

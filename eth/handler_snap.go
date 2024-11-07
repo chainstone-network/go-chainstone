@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/eth/protocols/snap"
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/eth/protocols/snap"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

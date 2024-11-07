@@ -22,9 +22,9 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/p2p/simulations/pipes"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/p2p/simulations/pipes"
 )
 
 func TestProtocolHandshake(t *testing.T) {

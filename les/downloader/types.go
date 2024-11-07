@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

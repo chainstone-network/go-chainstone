@@ -24,10 +24,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/accounts/abi/bind"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/contracts/checkpointoracle/contract"
-	"github.com/chainstone/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/accounts/abi/bind"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/contracts/checkpointoracle/contract"
+	"github.com/chainstone-network/go-chainstone/core/types"
 )
 
 // CheckpointOracle is a Go wrapper around an on-chain checkpoint oracle contract.

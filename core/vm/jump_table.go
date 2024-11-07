@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 type (

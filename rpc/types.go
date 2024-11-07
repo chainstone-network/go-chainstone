@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/hexutil"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

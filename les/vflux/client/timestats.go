@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/chainstone/go-chainstone/les/utils"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/les/utils"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 const (

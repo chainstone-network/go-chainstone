@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

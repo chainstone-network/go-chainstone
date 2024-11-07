@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

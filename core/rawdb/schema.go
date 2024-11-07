@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/metrics"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/metrics"
 )
 
 // The fields below define the low level database schema prefixing.
@@ -100,7 +100,7 @@ var (
 	CodePrefix            = []byte("c") // CodePrefix + code hash -> account code
 	skeletonHeaderPrefix  = []byte("S") // skeletonHeaderPrefix + num (uint64 big endian) -> header
 
-	PreimagePrefix = []byte("secure-key-")       // PreimagePrefix + hash -> preimage
+	PreimagePrefix = []byte("secure-key-")         // PreimagePrefix + hash -> preimage
 	configPrefix   = []byte("chainstone-config-")  // config prefix for the db
 	genesisPrefix  = []byte("chainstone-genesis-") // genesis state prefix for the db
 

@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

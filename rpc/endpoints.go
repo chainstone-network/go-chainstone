@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

@@ -29,8 +29,8 @@ import (
 	"testing/quick"
 	"time"
 
+	"github.com/chainstone-network/go-chainstone/metrics"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/chainstone/go-chainstone/metrics"
 	"github.com/stretchr/testify/require"
 )
 

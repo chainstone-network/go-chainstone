@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

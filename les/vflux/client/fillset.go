@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/chainstone/go-chainstone/p2p/enode"
-	"github.com/chainstone/go-chainstone/p2p/nodestate"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

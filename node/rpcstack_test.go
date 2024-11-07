@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/internal/testlog"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/internal/testlog"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/rpc"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"

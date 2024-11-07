@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/signer/core/apitypes"
-	"github.com/chainstone/go-chainstone/signer/fourbyte"
+	"github.com/chainstone-network/go-chainstone/signer/core/apitypes"
+	"github.com/chainstone-network/go-chainstone/signer/fourbyte"
 )
 
 func init() {

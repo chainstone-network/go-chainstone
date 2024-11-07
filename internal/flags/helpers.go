@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/params"
 	"github.com/urfave/cli/v2"
 )
 
@@ -54,11 +54,11 @@ var migrationApplied = map[*cli.Command]struct{}{}
 //
 // Example:
 //
-//    gchain account new --keystore /tmp/mykeystore --lightkdf
+//	gchain account new --keystore /tmp/mykeystore --lightkdf
 //
 // is equivalent after calling this method with:
 //
-//    gchain --keystore /tmp/mykeystore --lightkdf account new
+//	gchain --keystore /tmp/mykeystore --lightkdf account new
 //
 // i.e. in the subcommand Action function of 'account new', ctx.Bool("lightkdf)
 // will return true even if --lightkdf is set as a global option.

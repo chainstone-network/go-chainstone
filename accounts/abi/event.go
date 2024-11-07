@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

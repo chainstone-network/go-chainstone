@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/chainstone/go-chainstone/rlp/internal/rlpstruct"
+	"github.com/chainstone-network/go-chainstone/rlp/internal/rlpstruct"
 )
 
 // typeinfo is an entry in the type cache.

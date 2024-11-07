@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 type (

@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/chainstone/go-chainstone/cmd/devp2p/internal/v4test"
-	"github.com/chainstone/go-chainstone/internal/utesting"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/cmd/devp2p/internal/v4test"
+	"github.com/chainstone-network/go-chainstone/internal/utesting"
+	"github.com/chainstone-network/go-chainstone/log"
 	"github.com/urfave/cli/v2"
 )
 

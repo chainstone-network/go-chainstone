@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/p2p/simulations/pipes"
+	"github.com/chainstone-network/go-chainstone/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

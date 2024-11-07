@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/consensus/ethash"
-	"github.com/chainstone/go-chainstone/console/prompt"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/eth"
-	"github.com/chainstone/go-chainstone/eth/ethconfig"
-	"github.com/chainstone/go-chainstone/internal/jsre"
-	"github.com/chainstone/go-chainstone/miner"
-	"github.com/chainstone/go-chainstone/node"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/consensus/ethash"
+	"github.com/chainstone-network/go-chainstone/console/prompt"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/eth"
+	"github.com/chainstone-network/go-chainstone/eth/ethconfig"
+	"github.com/chainstone-network/go-chainstone/internal/jsre"
+	"github.com/chainstone-network/go-chainstone/miner"
+	"github.com/chainstone-network/go-chainstone/node"
 )
 
 const (
@@ -75,12 +75,12 @@ func (p *hookedPrompter) SetWordCompleter(completer prompt.WordCompleter) {}
 
 // tester is a console test environment for the console tests to operate on.
 type tester struct {
-	workspace string
-	stack     *node.Node
-	chainstone  *eth.Chainstoneeum
-	console   *Console
-	input     *hookedPrompter
-	output    *bytes.Buffer
+	workspace  string
+	stack      *node.Node
+	chainstone *eth.Chainstoneeum
+	console    *Console
+	input      *hookedPrompter
+	output     *bytes.Buffer
 }
 
 // newTester creates a test environment based on which the console can operate.
@@ -134,12 +134,12 @@ func newTester(t *testing.T, confOverride func(*ethconfig.Config)) *tester {
 	}
 	// Create the final tester and return
 	return &tester{
-		workspace: workspace,
-		stack:     stack,
-		chainstone:  ethBackend,
-		console:   console,
-		input:     prompter,
-		output:    printer,
+		workspace:  workspace,
+		stack:      stack,
+		chainstone: ethBackend,
+		console:    console,
+		input:      prompter,
+		output:     printer,
 	}
 }
 

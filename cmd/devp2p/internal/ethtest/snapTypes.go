@@ -16,7 +16,7 @@
 
 package ethtest
 
-import "github.com/chainstone/go-chainstone/eth/protocols/snap"
+import "github.com/chainstone-network/go-chainstone/eth/protocols/snap"
 
 // GetAccountRange represents an account range query.
 type GetAccountRange snap.GetAccountRangePacket

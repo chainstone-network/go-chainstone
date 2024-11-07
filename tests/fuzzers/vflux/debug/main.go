@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/tests/fuzzers/vflux"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/tests/fuzzers/vflux"
 )
 
 func main() {

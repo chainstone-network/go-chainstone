@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

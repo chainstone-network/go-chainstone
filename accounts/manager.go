@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/event"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

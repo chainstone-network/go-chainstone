@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/common"
 )
 
 // memoryNode is all the information we know about a single cached trie node

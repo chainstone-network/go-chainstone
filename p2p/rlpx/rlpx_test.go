@@ -28,11 +28,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/crypto/ecies"
+	"github.com/chainstone-network/go-chainstone/p2p/simulations/pipes"
+	"github.com/chainstone-network/go-chainstone/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/crypto/ecies"
-	"github.com/chainstone/go-chainstone/p2p/simulations/pipes"
-	"github.com/chainstone/go-chainstone/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

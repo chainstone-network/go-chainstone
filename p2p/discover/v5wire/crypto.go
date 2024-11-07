@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/chainstone/go-chainstone/common/math"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/common/math"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 	"golang.org/x/crypto/hkdf"
 )
 

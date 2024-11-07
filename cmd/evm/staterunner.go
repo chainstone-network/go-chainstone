@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainstone/go-chainstone/core/state"
-	"github.com/chainstone/go-chainstone/core/vm"
-	"github.com/chainstone/go-chainstone/eth/tracers/logger"
-	"github.com/chainstone/go-chainstone/log"
-	"github.com/chainstone/go-chainstone/tests"
+	"github.com/chainstone-network/go-chainstone/core/state"
+	"github.com/chainstone-network/go-chainstone/core/vm"
+	"github.com/chainstone-network/go-chainstone/eth/tracers/logger"
+	"github.com/chainstone-network/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/tests"
 
 	"github.com/urfave/cli/v2"
 )

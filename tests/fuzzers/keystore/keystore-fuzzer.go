@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/chainstone/go-chainstone/accounts/keystore"
+	"github.com/chainstone-network/go-chainstone/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

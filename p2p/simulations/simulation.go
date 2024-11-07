@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

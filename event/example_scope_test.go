@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/chainstone/go-chainstone/event"
+	"github.com/chainstone-network/go-chainstone/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

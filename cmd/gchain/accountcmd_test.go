@@ -238,7 +238,7 @@ Fatal: Failed to unlock account f466859ead1932d743d622cb74fc058882e8648a (could 
 `)
 }
 
-// https://github.com/chainstone/go-chainstone/issues/1785
+// https://github.com/chainstone-network/go-chainstone/issues/1785
 func TestUnlockFlagMultiIndex(t *testing.T) {
 	gchain := runMinimalGchain(t, "--port", "0", "--ipcdisable", "--datadir", tmpDatadirWithKeystore(t),
 		"--unlock", "f466859ead1932d743d622cb74fc058882e8648a", "--unlock", "0,2", "console", "--exec", "loadScript('testdata/empty.js')")

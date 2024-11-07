@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/chainstone/go-chainstone/rlp/internal/rlpstruct"
+	"github.com/chainstone-network/go-chainstone/rlp/internal/rlpstruct"
 )
 
 var (

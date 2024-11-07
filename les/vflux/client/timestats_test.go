@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainstone/go-chainstone/les/utils"
+	"github.com/chainstone-network/go-chainstone/les/utils"
 )
 
 func TestTransition(t *testing.T) {

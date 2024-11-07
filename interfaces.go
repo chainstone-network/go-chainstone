@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

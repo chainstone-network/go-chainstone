@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/chainstone/go-chainstone/metrics"
-	"github.com/chainstone/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/metrics"
+	"github.com/chainstone-network/go-chainstone/p2p"
 )
 
 var (

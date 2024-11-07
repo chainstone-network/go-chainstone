@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/chainstone/go-chainstone/metrics"
+import "github.com/chainstone-network/go-chainstone/metrics"
 
 var (
 	accountUpdatedMeter        = metrics.NewRegisteredMeter("state/update/account", nil)

@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/mclock"
-	"github.com/chainstone/go-chainstone/les/utils"
-	"github.com/chainstone/go-chainstone/p2p/enode"
+	"github.com/chainstone-network/go-chainstone/common/mclock"
+	"github.com/chainstone-network/go-chainstone/les/utils"
+	"github.com/chainstone-network/go-chainstone/p2p/enode"
 )
 
 // PrivateClientAPI implements the vflux client side API

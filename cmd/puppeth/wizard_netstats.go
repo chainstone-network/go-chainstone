@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/log"
 	"github.com/olekukonko/tablewriter"
 )
 

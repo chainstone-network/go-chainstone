@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/chainstone/go-chainstone/cmd/devp2p/internal/ethtest"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/p2p/rlpx"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/cmd/devp2p/internal/ethtest"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/p2p/rlpx"
+	"github.com/chainstone-network/go-chainstone/rlp"
 	"github.com/urfave/cli/v2"
 )
 

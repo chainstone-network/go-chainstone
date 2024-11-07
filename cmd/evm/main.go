@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/chainstone/go-chainstone/cmd/evm/internal/t8ntool"
-	"github.com/chainstone/go-chainstone/internal/flags"
+	"github.com/chainstone-network/go-chainstone/cmd/evm/internal/t8ntool"
+	"github.com/chainstone-network/go-chainstone/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

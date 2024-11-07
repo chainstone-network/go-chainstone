@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/rlp"
 )
 
 // EIP-8 test vectors.

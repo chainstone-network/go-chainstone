@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/ethdb"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/ethdb"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

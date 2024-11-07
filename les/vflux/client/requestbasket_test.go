@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/les/utils"
+	"github.com/chainstone-network/go-chainstone/les/utils"
 )
 
 func checkU64(t *testing.T, name string, value, exp uint64) {

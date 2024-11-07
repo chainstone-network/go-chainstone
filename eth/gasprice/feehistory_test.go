@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

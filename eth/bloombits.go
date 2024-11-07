@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/chainstone/go-chainstone/common/bitutil"
-	"github.com/chainstone/go-chainstone/core/rawdb"
+	"github.com/chainstone-network/go-chainstone/common/bitutil"
+	"github.com/chainstone-network/go-chainstone/core/rawdb"
 )
 
 const (

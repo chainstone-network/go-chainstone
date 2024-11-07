@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/chainstone/go-chainstone/p2p"
-	"github.com/chainstone/go-chainstone/rpc"
+	"github.com/chainstone-network/go-chainstone/p2p"
+	"github.com/chainstone-network/go-chainstone/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

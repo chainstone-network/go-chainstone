@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/consensus/ethash"
-	"github.com/chainstone/go-chainstone/core"
-	"github.com/chainstone/go-chainstone/eth/downloader"
-	"github.com/chainstone/go-chainstone/eth/gasprice"
-	"github.com/chainstone/go-chainstone/miner"
-	"github.com/chainstone/go-chainstone/params"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/consensus/ethash"
+	"github.com/chainstone-network/go-chainstone/core"
+	"github.com/chainstone-network/go-chainstone/eth/downloader"
+	"github.com/chainstone-network/go-chainstone/eth/gasprice"
+	"github.com/chainstone-network/go-chainstone/miner"
+	"github.com/chainstone-network/go-chainstone/params"
 )
 
 // MarshalTOML marshals as TOML.

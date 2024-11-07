@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/chainstone/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/event"
+	"github.com/chainstone-network/go-chainstone/event"
 )
 
 func ExampleNewSubscription() {

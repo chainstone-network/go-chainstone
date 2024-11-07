@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chainstone/go-chainstone"
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/core/types"
+	"github.com/chainstone-network/go-chainstone"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/core/types"
 )
 
 var (

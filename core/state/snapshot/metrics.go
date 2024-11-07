@@ -16,7 +16,7 @@
 
 package snapshot
 
-import "github.com/chainstone/go-chainstone/metrics"
+import "github.com/chainstone-network/go-chainstone/metrics"
 
 // Metrics in generation
 var (

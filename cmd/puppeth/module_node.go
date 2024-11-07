@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/chainstone/go-chainstone/common"
-	"github.com/chainstone/go-chainstone/log"
+	"github.com/chainstone-network/go-chainstone/common"
+	"github.com/chainstone-network/go-chainstone/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Chainstoneeum node.
@@ -98,36 +98,36 @@ func deployNode(client *sshClient, network string, bootnodes []string, config *n
 	}
 	dockerfile := new(bytes.Buffer)
 	template.Must(template.New("").Parse(nodeDockerfile)).Execute(dockerfile, map[string]interface{}{
-		"NetworkID": config.network,
-		"Port":      config.port,
-		"IP":        client.address,
-		"Peers":     config.peersTotal,
-		"LightFlag": lightFlag,
-		"Bootnodes": strings.Join(bootnodes, ","),
-		"Ethstats":  config.ethstats,
+		"NetworkID":      config.network,
+		"Port":           config.port,
+		"IP":             client.address,
+		"Peers":          config.peersTotal,
+		"LightFlag":      lightFlag,
+		"Bootnodes":      strings.Join(bootnodes, ","),
+		"Ethstats":       config.ethstats,
 		"Chainstonebase": config.chainstonebase,
-		"GasTarget": uint64(1000000 * config.gasTarget),
-		"GasLimit":  uint64(1000000 * config.gasLimit),
-		"GasPrice":  uint64(1000000000 * config.gasPrice),
-		"Unlock":    config.keyJSON != "",
+		"GasTarget":      uint64(1000000 * config.gasTarget),
+		"GasLimit":       uint64(1000000 * config.gasLimit),
+		"GasPrice":       uint64(1000000000 * config.gasPrice),
+		"Unlock":         config.keyJSON != "",
 	})
 	files[filepath.Join(workdir, "Dockerfile")] = dockerfile.Bytes()
 
 	composefile := new(bytes.Buffer)
 	template.Must(template.New("").Parse(nodeComposefile)).Execute(composefile, map[string]interface{}{
-		"Type":       kind,
-		"Datadir":    config.datadir,
-		"Ethashdir":  config.ethashdir,
-		"Network":    network,
-		"Port":       config.port,
-		"TotalPeers": config.peersTotal,
-		"Light":      config.peersLight > 0,
-		"LightPeers": config.peersLight,
-		"Ethstats":   getEthName(config.ethstats),
-		"Chainstonebase":  config.chainstonebase,
-		"GasTarget":  config.gasTarget,
-		"GasLimit":   config.gasLimit,
-		"GasPrice":   config.gasPrice,
+		"Type":           kind,
+		"Datadir":        config.datadir,
+		"Ethashdir":      config.ethashdir,
+		"Network":        network,
+		"Port":           config.port,
+		"TotalPeers":     config.peersTotal,
+		"Light":          config.peersLight > 0,
+		"LightPeers":     config.peersLight,
+		"Ethstats":       getEthName(config.ethstats),
+		"Chainstonebase": config.chainstonebase,
+		"GasTarget":      config.gasTarget,
+		"GasLimit":       config.gasLimit,
+		"GasPrice":       config.gasPrice,
 	})
 	files[filepath.Join(workdir, "docker-compose.yaml")] = composefile.Bytes()
 
@@ -152,21 +152,21 @@ func deployNode(client *sshClient, network string, bootnodes []string, config *n
 // nodeInfos is returned from a boot or seal node status check to allow reporting
 // various configuration parameters.
 type nodeInfos struct {
-	genesis    []byte
-	network    int64
-	datadir    string
-	ethashdir  string
-	ethstats   string
-	port       int
-	enode      string
-	peersTotal int
-	peersLight int
-	chainstonebase  string
-	keyJSON    string
-	keyPass    string
-	gasTarget  float64
-	gasLimit   float64
-	gasPrice   float64
+	genesis        []byte
+	network        int64
+	datadir        string
+	ethashdir      string
+	ethstats       string
+	port           int
+	enode          string
+	peersTotal     int
+	peersLight     int
+	chainstonebase string
+	keyJSON        string
+	keyPass        string
+	gasTarget      float64
+	gasLimit       float64
+	gasPrice       float64
 }
 
 // Report converts the typed struct into a plain string->string map, containing
@@ -253,19 +253,19 @@ func checkNode(client *sshClient, network string, boot bool) (*nodeInfos, error)
 	}
 	// Assemble and return the useful infos
 	stats := &nodeInfos{
-		genesis:    genesis,
-		datadir:    infos.volumes["/root/.chainstone"],
-		ethashdir:  infos.volumes["/root/.ethash"],
-		port:       port,
-		peersTotal: totalPeers,
-		peersLight: lightPeers,
-		ethstats:   infos.envvars["STATS_NAME"],
-		chainstonebase:  infos.envvars["MINER_NAME"],
-		keyJSON:    keyJSON,
-		keyPass:    keyPass,
-		gasTarget:  gasTarget,
-		gasLimit:   gasLimit,
-		gasPrice:   gasPrice,
+		genesis:        genesis,
+		datadir:        infos.volumes["/root/.chainstone"],
+		ethashdir:      infos.volumes["/root/.ethash"],
+		port:           port,
+		peersTotal:     totalPeers,
+		peersLight:     lightPeers,
+		ethstats:       infos.envvars["STATS_NAME"],
+		chainstonebase: infos.envvars["MINER_NAME"],
+		keyJSON:        keyJSON,
+		keyPass:        keyPass,
+		gasTarget:      gasTarget,
+		gasLimit:       gasLimit,
+		gasPrice:       gasPrice,
 	}
 	stats.enode = string(enode)
 

@@ -34,9 +34,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/chainstone/go-chainstone/crypto"
-	"github.com/chainstone/go-chainstone/crypto/ecies"
-	"github.com/chainstone/go-chainstone/rlp"
+	"github.com/chainstone-network/go-chainstone/crypto"
+	"github.com/chainstone-network/go-chainstone/crypto/ecies"
+	"github.com/chainstone-network/go-chainstone/rlp"
 	"github.com/golang/snappy"
 	"golang.org/x/crypto/sha3"
 )

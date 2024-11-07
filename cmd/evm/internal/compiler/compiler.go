@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainstone/go-chainstone/core/asm"
+	"github.com/chainstone-network/go-chainstone/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {
